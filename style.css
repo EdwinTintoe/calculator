@@ -1,0 +1,45 @@
+body{
+    box-sizing: border-box;
+    background-color: #3f3f3f;
+    margin: 0;
+    padding: 0;
+
+}
+
+.calculator{
+    margin: 100px;
+    padding: 20px;
+    background-color: #bbbbbb;
+    max-width: 500px;
+ 
+}
+.display{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;  
+    color: black;
+    text-align: right;
+    font-size: 40px;
+  
+}
+
+    
+
+.buttons{
+        display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.buttons *{
+    flex: 1 0 calc(25% - 40px);
+    border: 1px solid black;
+    padding: auto;
+    font-size: 30px;
+    text-align: center;  
+    background-color: white; 
+    border-radius: 20px;
+}
+.btn #equals{
+    aspect-ratio: 2 / 1;
+}
